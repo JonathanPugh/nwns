@@ -1,0 +1,7 @@
+nwns
+*~
+*.o
+.config
+version.c
+nwns.8.gz
+*-stamp
