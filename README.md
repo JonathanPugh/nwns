@@ -9,21 +9,21 @@ Getting Started
 
 nwns can be compiled with the included Makefile:
 
-.. code:: bash
-
+```
     make
+```
 
 Compile and install to /usr/sbin/:
 
-.. code:: bash
-
+```
     sudo make install
+```
 
 Uninstall:
 
-.. code:: bash
-
+```
     sudo make remove
+```
 
 Usage
 =====
@@ -32,9 +32,9 @@ nwns must be run as root
 
 Pass your wireless interface as the first parameter when runnings nwns:
 
-.. code:: bash
-
+```
     sudo nwns wlan0
+```
 
 If no interface is specified, nwns will attempt to use wlp3s0 as the interface.
 
