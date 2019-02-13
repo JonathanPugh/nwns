@@ -1,7 +1,7 @@
 nwns
 =====
 
-Nwns is an Ncurses Wireless Network Scanner which displays nearby wireless network SSIDs, MAC addresses, and channels. It utilizes libnl, a collection of libraries providing APIs to the Netlink protocol based Linux kernel interfaces. Because Netlink is a Linux-specific protocol, nwns is only compatible with Linux operating systems. nwns is tested on Arch Linux
+Nwns is an Ncurses Wireless Network Scanner which displays nearby wireless network SSIDs, MAC addresses, and channels. It utilizes libnl, a collection of libraries providing APIs to the Netlink protocol based Linux kernel interfaces. Because Netlink is a Linux-specific protocol, nwns is only compatible with Linux operating systems. Nwns is tested on Arch Linux
 
 
 Getting Started
