@@ -49,6 +49,9 @@ void initList(char * wInt){
         return;
     }
 
+    //Free nl_sock *socket
+    nl_socket_free(socket);
+
     //Save the head of the netNode linked list
     headPtr = netList;
     struct netNode * temp = NULL;
