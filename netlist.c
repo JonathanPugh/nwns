@@ -49,9 +49,11 @@ void initList(char * wInt){
         return;
     }
 
+    //Save the head of the netNode linked list
     headPtr = netList;
     struct netNode * temp = NULL;
 
+    //Count the number of detected netwoks and find the last element (tailPtr)
     while(netList){
       temp = netList;
       netList = netList->next;
