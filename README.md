@@ -1,13 +1,13 @@
 nwns
 =====
 
-nwns is an Ncurses Wireless Network Scanner which displays nearby wireless network SSIDs, MAC addresses, and channels. It utilizes libnl, a collection of libraries providing APIs to the Netlink protocol based Linux kernel interfaces. Because Netlink is a Linux-specific protocol, nwns will only work in Linux operating systems. nwns is tested on Arch Linux.
+Nwns is an Ncurses Wireless Network Scanner which displays nearby wireless network SSIDs, MAC addresses, and channels. It utilizes libnl, a collection of libraries providing APIs to the Netlink protocol based Linux kernel interfaces. Because Netlink is a Linux-specific protocol, nwns is only compatible with Linux operating systems. nwns is tested on Arch Linux
 
 
 Getting Started
 ===============
 
-nwns can be compiled with the included Makefile:
+Nwns can be compiled with the included Makefile:
 
 ```
     make
@@ -28,7 +28,7 @@ Uninstall:
 Usage
 =====
 
-nwns must be run as root
+Nwns must be run as root.
 
 Pass your wireless interface as the first parameter when runnings nwns:
 
@@ -45,4 +45,7 @@ Below is an example of a completed scan with nwns:
 
 ![Alt text](example.png?raw=true "nwns example scan")
 
+License
+=======
 
+Nwns is licensed under the GNU LGPLv2.1 - See [LICENSE](LICENSE) for details.
